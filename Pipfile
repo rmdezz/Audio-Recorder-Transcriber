@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyaudio = "*"
+openai-whisper = "*"
+keyboard = "*"
+numpy = "==1.24.3"
+torch = "*"
+ffmpeg-python = "*"
+openai = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.16"
+
+[scripts]
+start = "python src/main.py"
